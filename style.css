@@ -380,3 +380,7 @@ body {
     font-family: "Roboto Mono";
   }
   
+  button:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
