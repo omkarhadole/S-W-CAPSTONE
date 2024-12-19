@@ -351,3 +351,32 @@ body {
     height: 1px;
     background-color: grey;
   }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0rem 0rem 2rem;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+  }
+  
+  .footer-bottom p {
+    font-size: 1.7rem;
+    color: black;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+  button {
+    padding: 0.8rem 2rem;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-family: "Roboto Mono";
+  }
+  
