@@ -99,3 +99,43 @@ body {
     padding: 9vw 18vw;
   }
   
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:repeat(3,1fr);
+    gap:2.22vw;
+    padding-left: 3vw;
+  }
+  #grid-item{
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .grid div img{
+    object-fit: cover;
+  }
+  .box3{
+    grid-row:2/3;
+    grid-column:1/3;
+    display: grid;
+    
+  }
+  #img1{
+    width: 45vw;
+  }
+  #img2{
+    width: 45vw;
+  }
+  #img3{
+    width: 70vw;
+    margin-left: 24.8vw;
+    
+  }
+  #img5{
+    width: 45vw;
+    
+  }
+  #img6{
+    width: 45vw;
+    
+  }
