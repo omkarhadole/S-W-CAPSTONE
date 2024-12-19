@@ -64,8 +64,38 @@ body {
   .nav-right {
     margin-left: auto;
   }
-  
+
   .nav-left a:hover, .nav-right a:hover {
     font-weight: bold;
     color: black;
   }
+
+  .title {
+    margin-top: 55px;
+    margin-bottom: 20px;
+    font-size: 8vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: lighter;
+    
+  }
+  .hero {
+    text-align: center;
+  }
+  .hero img {
+    margin-top: 0px;
+    width: 95%;
+    max-height: 85vh;
+    object-fit: cover;
+  }
+  
+  .hero p {
+    text-align: center;
+    margin: 20px auto;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+    padding: 9vw 18vw;
+  }
+  
