@@ -315,3 +315,33 @@ body {
 .testimonial-content {
     flex: 1;
 }
+
+.name {
+    text-align: start;
+    font-weight: 300;
+    font-family: "Roboto Mono";
+    font-size: 2.4vh;
+    margin: 0;
+  }
+  
+  .designation {
+    text-align: start;
+    color: #666;
+    font-size: 1.8vh;
+    margin: 0;
+    font-weight: 300;
+    font-family: "Roboto Mono";
+    margin-bottom: 1vh;
+  }
+  
+  .testimonial-text {
+    text-align: start;
+    margin-left: -3vw;
+    font-size: 2.3vh;
+    color: #333;
+    line-height: 2.9vh;
+    font-weight: 300;
+    font-family: "Roboto Mono";
+    border-left: 0.2vh solid grey;
+    padding-left: 4.9vh;
+  }
