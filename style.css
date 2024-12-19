@@ -345,3 +345,9 @@ body {
     border-left: 0.2vh solid grey;
     padding-left: 4.9vh;
   }
+
+  .line{
+    width: 100vw;
+    height: 1px;
+    background-color: grey;
+  }
