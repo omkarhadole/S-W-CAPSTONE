@@ -65,3 +65,7 @@ body {
     margin-left: auto;
   }
   
+  .nav-left a:hover, .nav-right a:hover {
+    font-weight: bold;
+    color: black;
+  }
