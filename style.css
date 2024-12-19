@@ -216,3 +216,16 @@ body {
     font-family: "Roboto Mono";
   }
   
+  @media (max-width: 649px) {
+    .projects {
+      columns: 2;
+      gap: 2.22vw;
+      padding-top: 2.22vw;
+    }
+    .project img {
+      width: 45vw;
+      height: auto;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+}
