@@ -179,3 +179,40 @@ body {
     font-family: "Roboto Mono";
     list-style: none;
   }
+
+  .projects-cont{
+    padding: 3vw;
+  }
+  .projects {
+    columns: 3;
+    gap: 2.22vw;
+    padding-top: 2.22vw;
+    
+    
+  }
+  
+  .project {
+    display: inline;
+    overflow: hidden;
+    width: 100%; 
+    
+  } 
+  .project img {
+    width: 28.8vw;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h2 {
+    margin: 10px 0 5px;
+    font-size: 2.2vh;
+    font-weight: 400;
+    font-family: "Roboto Mono";
+  }
+  
+  .project p {
+    margin: 0;
+    color: #555;
+    padding-bottom: 2vw;
+    font-family: "Roboto Mono";
+  }
+  
