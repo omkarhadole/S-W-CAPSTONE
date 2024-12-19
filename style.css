@@ -384,3 +384,28 @@ body {
     background-color: #000000;
     color: #ffffff;
   }
+
+  @media (max-width: 749px) {
+    .nav-left.nav-menu{
+      display: none;
+    }
+    .nav-right.nav-menu li:nth-child(1){
+      display: none;
+    }
+    .nav-right.nav-menu li:nth-child(2){
+      display: inline;
+      font-size:6vw ;
+    }
+  
+    .nav-center.nav-menu .logo {
+      margin-right: 0rem; 
+    }
+    .nav-center.nav-menu a{
+      font-size:7vw;
+    }
+  
+    .service1 ul li, .service2 ul li {
+      line-height: 1.8vh;
+    }
+  
+  }
